@@ -1,9 +1,3 @@
-/**
-* Template Name: NewBiz - v2.1.0
-* Template URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function($) {
   "use strict";
 
@@ -196,7 +190,7 @@
   // Init AOS
   function aos_init() {
     AOS.init({
-      duration: 1000,
+      duration: 5000,
       once: true
     });
   }
