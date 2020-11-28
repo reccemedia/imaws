@@ -25,6 +25,14 @@
     return false;
   });
 
+  //publication
+  $(".clients-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    items: 1
+  });
+
   // Header scroll class
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {

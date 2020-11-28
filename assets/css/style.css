@@ -753,7 +753,7 @@ section {
   height: auto;
 } */
 
-#clients .overlay {
+/*#clients .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -764,13 +764,13 @@ section {
   opacity: 0;
   transition: .5s ease;
   background-color: #000;
-}
+}*/
 
 /*n #clients .client-logo:hover .overlay {
   opacity: 75%;
 } */
 
-#clients .text a{
+/*#clients .text a{
   color: white;
   font-size: 10px;
   position: absolute;
@@ -799,8 +799,68 @@ section {
 }
 
 .carousel-control-next,
-.carousel-control-prev /*, .carousel-indicators */ {
+.carousel-control-prev {
     filter: invert(100%);
+}*/
+
+/*publication*/
+.publication{
+    text-align: center;
+}
+
+.publication .pic{
+    width: 120px;
+    height: 120px;
+    /*border-radius: 50%;*/
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.publication .pic img{
+    width: 150%;
+    height: 150%;
+    margin-left: -25px;
+    margin-top: -30px;
+    /*border-radius: 50%;*/
+}
+
+.publication .publication-title{
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0c4767;
+    margin: 0 0 70px 0;
+}
+
+.publication .publication-title small{
+    font-size: 15px;
+    font-weight: 600;
+    color: #787878;
+}
+
+.publication .description{
+    font-size: 17px;
+    line-height: 27px;
+    position: relative;
+    margin: 0;
+}
+
+#clients .owl-nav, #clients .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#clients .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+#clients .owl-dot.active {
+  background-color: #007bff;
 }
 
 /* Testimonials Section
