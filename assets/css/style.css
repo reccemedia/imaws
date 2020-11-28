@@ -794,8 +794,13 @@ section {
   transform: translate(-50%, -50%);
 }
 
-#clients .item:hover .overlay {
+#clients .carousel-item:hover .overlay {
   opacity: 75%;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
 }
 
 /* Testimonials Section
