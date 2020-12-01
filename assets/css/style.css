@@ -364,7 +364,7 @@ h1, h2, h3, h4, h5, h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/intro-bg.png") center bottom no-repeat;
+  background: url("../img/intro-bg-grey.png") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
 }
@@ -423,7 +423,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .intro-info h2 span {
-  color: #74b5fc;
+  color: #342D7E;
   text-decoration: underline;
 }
 
