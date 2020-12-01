@@ -684,10 +684,11 @@ section {
   top: calc(50% - 32px);
 }
 
-#services .icon i {
-  font-size: 64px;
+#services .icon ion-icon {
+  font-size: 50px;
   line-height: 1;
   transition: 0.5s;
+  margin-top: 5px;
 }
 
 #services .title {
@@ -707,10 +708,10 @@ section {
 
 #services .description {
   font-size: 14px;
-  /*margin-left: 40px;*/
+  margin-left: 40px;
   line-height: 24px;
   margin-bottom: 0;
-  text-align: center;
+  text-align: left;
 }
 
 /* Clients Section
