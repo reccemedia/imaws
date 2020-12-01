@@ -416,15 +416,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .intro-info h2 {
-  color: #fff;
+  color: #74b5fc;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
 }
 
 #intro .intro-info h2 span {
-  color: #74b5fc;
-  text-decoration: underline;
+  color: #fff;
 }
 
 @media (max-width: 767px) {
